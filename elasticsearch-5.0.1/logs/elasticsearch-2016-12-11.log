@@ -1,0 +1,36 @@
+[2016-12-11T12:50:02,213][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-11T12:50:02,340][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [43.4gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-12-11T12:50:02,341][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-12-11T12:50:02,342][INFO ][o.e.n.Node               ] [nwthU-R] node name [nwthU-R] derived from node ID; set [node.name] to override
+[2016-12-11T12:50:02,347][INFO ][o.e.n.Node               ] [nwthU-R] version[5.0.1], pid[862], build[080bb47/2016-11-11T22:08:49.812Z], OS[Mac OS X/10.12.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-11T12:50:03,876][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [aggs-matrix-stats]
+[2016-12-11T12:50:03,876][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [ingest-common]
+[2016-12-11T12:50:03,876][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-expression]
+[2016-12-11T12:50:03,876][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-groovy]
+[2016-12-11T12:50:03,876][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-mustache]
+[2016-12-11T12:50:03,877][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-painless]
+[2016-12-11T12:50:03,877][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [percolator]
+[2016-12-11T12:50:03,877][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [reindex]
+[2016-12-11T12:50:03,878][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty3]
+[2016-12-11T12:50:03,878][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty4]
+[2016-12-11T12:50:03,879][INFO ][o.e.p.PluginsService     ] [nwthU-R] no plugins loaded
+[2016-12-11T12:50:06,902][INFO ][o.e.n.Node               ] [nwthU-R] initialized
+[2016-12-11T12:50:06,902][INFO ][o.e.n.Node               ] [nwthU-R] starting ...
+[2016-12-11T12:50:12,163][INFO ][o.e.t.TransportService   ] [nwthU-R] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-12-11T12:50:15,237][INFO ][o.e.c.s.ClusterService   ] [nwthU-R] new_master {nwthU-R}{nwthU-RSRJmrdHRK1B-nHg}{XfR1HD5cSfOKy7uSSONqtw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-11T12:50:15,270][INFO ][o.e.h.HttpServer         ] [nwthU-R] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-12-11T12:50:15,270][INFO ][o.e.n.Node               ] [nwthU-R] started
+[2016-12-11T12:50:15,285][INFO ][o.e.g.GatewayService     ] [nwthU-R] recovered [0] indices into cluster_state
+[2016-12-11T13:00:25,118][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [marca] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-11T13:00:25,347][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-11T13:00:25,349][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-11T13:00:25,507][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca/UI78eisKQoWfZ_ORhnJsPg] create_mapping [sentiments]
+[2016-12-11T13:00:25,520][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca/UI78eisKQoWfZ_ORhnJsPg] update_mapping [sentiments]
+[2016-12-11T13:00:25,813][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-11T13:00:25,816][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-11T13:00:26,242][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [update_log] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-11T13:00:26,315][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [update_log/7mNNWWP-TWmvAMsWxuWpgw] create_mapping [entry]
+[2016-12-11T13:15:33,644][INFO ][o.e.n.Node               ] [nwthU-R] stopping ...
+[2016-12-11T13:15:33,673][INFO ][o.e.n.Node               ] [nwthU-R] stopped
+[2016-12-11T13:15:33,673][INFO ][o.e.n.Node               ] [nwthU-R] closing ...
+[2016-12-11T13:15:33,683][INFO ][o.e.n.Node               ] [nwthU-R] closed

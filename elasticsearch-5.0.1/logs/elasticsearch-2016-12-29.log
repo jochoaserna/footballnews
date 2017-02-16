@@ -1,0 +1,170 @@
+[2016-12-29T16:37:46,872][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-29T16:37:46,977][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [33.8gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-12-29T16:37:46,977][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-12-29T16:37:47,006][INFO ][o.e.n.Node               ] [nwthU-R] node name [nwthU-R] derived from node ID; set [node.name] to override
+[2016-12-29T16:37:47,010][INFO ][o.e.n.Node               ] [nwthU-R] version[5.0.1], pid[1095], build[080bb47/2016-11-11T22:08:49.812Z], OS[Mac OS X/10.12.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-29T16:37:48,077][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [aggs-matrix-stats]
+[2016-12-29T16:37:48,077][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [ingest-common]
+[2016-12-29T16:37:48,077][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-expression]
+[2016-12-29T16:37:48,077][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-groovy]
+[2016-12-29T16:37:48,078][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-mustache]
+[2016-12-29T16:37:48,078][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-painless]
+[2016-12-29T16:37:48,078][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [percolator]
+[2016-12-29T16:37:48,078][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [reindex]
+[2016-12-29T16:37:48,078][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty3]
+[2016-12-29T16:37:48,078][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty4]
+[2016-12-29T16:37:48,079][INFO ][o.e.p.PluginsService     ] [nwthU-R] no plugins loaded
+[2016-12-29T16:37:51,447][INFO ][o.e.n.Node               ] [nwthU-R] initialized
+[2016-12-29T16:37:51,447][INFO ][o.e.n.Node               ] [nwthU-R] starting ...
+[2016-12-29T16:37:56,756][INFO ][o.e.t.TransportService   ] [nwthU-R] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-12-29T16:37:59,833][INFO ][o.e.c.s.ClusterService   ] [nwthU-R] new_master {nwthU-R}{nwthU-RSRJmrdHRK1B-nHg}{NKhhR1oDT4en7t1hO0wO-Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-29T16:37:59,859][INFO ][o.e.h.HttpServer         ] [nwthU-R] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-12-29T16:37:59,860][INFO ][o.e.n.Node               ] [nwthU-R] started
+[2016-12-29T16:38:00,057][INFO ][o.e.g.GatewayService     ] [nwthU-R] recovered [2] indices into cluster_state
+[2016-12-29T16:38:00,428][INFO ][o.e.c.r.a.AllocationService] [nwthU-R] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][1], [footballdata][4]] ...]).
+[2016-12-29T16:39:53,987][INFO ][o.e.n.Node               ] [nwthU-R] stopping ...
+[2016-12-29T16:39:54,024][INFO ][o.e.n.Node               ] [nwthU-R] stopped
+[2016-12-29T16:39:54,025][INFO ][o.e.n.Node               ] [nwthU-R] closing ...
+[2016-12-29T16:39:54,033][INFO ][o.e.n.Node               ] [nwthU-R] closed
+[2016-12-29T16:40:13,246][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-29T16:40:13,321][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [33.8gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-12-29T16:40:13,322][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-12-29T16:40:13,348][INFO ][o.e.n.Node               ] [nwthU-R] node name [nwthU-R] derived from node ID; set [node.name] to override
+[2016-12-29T16:40:13,350][INFO ][o.e.n.Node               ] [nwthU-R] version[5.0.1], pid[1126], build[080bb47/2016-11-11T22:08:49.812Z], OS[Mac OS X/10.12.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-29T16:40:14,340][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [aggs-matrix-stats]
+[2016-12-29T16:40:14,341][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [ingest-common]
+[2016-12-29T16:40:14,341][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-expression]
+[2016-12-29T16:40:14,341][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-groovy]
+[2016-12-29T16:40:14,341][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-mustache]
+[2016-12-29T16:40:14,342][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-painless]
+[2016-12-29T16:40:14,342][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [percolator]
+[2016-12-29T16:40:14,342][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [reindex]
+[2016-12-29T16:40:14,342][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty3]
+[2016-12-29T16:40:14,342][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty4]
+[2016-12-29T16:40:14,343][INFO ][o.e.p.PluginsService     ] [nwthU-R] no plugins loaded
+[2016-12-29T16:40:16,885][INFO ][o.e.n.Node               ] [nwthU-R] initialized
+[2016-12-29T16:40:16,888][INFO ][o.e.n.Node               ] [nwthU-R] starting ...
+[2016-12-29T16:40:22,223][INFO ][o.e.t.TransportService   ] [nwthU-R] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-12-29T16:40:25,284][INFO ][o.e.c.s.ClusterService   ] [nwthU-R] new_master {nwthU-R}{nwthU-RSRJmrdHRK1B-nHg}{gJkTsGbLQ0qEa3zS9cRwlg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-29T16:40:25,307][INFO ][o.e.h.HttpServer         ] [nwthU-R] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-12-29T16:40:25,308][INFO ][o.e.n.Node               ] [nwthU-R] started
+[2016-12-29T16:40:25,503][INFO ][o.e.g.GatewayService     ] [nwthU-R] recovered [2] indices into cluster_state
+[2016-12-29T16:40:25,879][INFO ][o.e.c.r.a.AllocationService] [nwthU-R] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][1]] ...]).
+[2016-12-29T16:42:45,713][INFO ][o.e.n.Node               ] [nwthU-R] stopping ...
+[2016-12-29T16:42:45,749][INFO ][o.e.n.Node               ] [nwthU-R] stopped
+[2016-12-29T16:42:45,749][INFO ][o.e.n.Node               ] [nwthU-R] closing ...
+[2016-12-29T16:42:45,759][INFO ][o.e.n.Node               ] [nwthU-R] closed
+[2016-12-29T19:05:20,848][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-29T19:05:20,947][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [34gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-12-29T19:05:20,948][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-12-29T19:05:20,981][INFO ][o.e.n.Node               ] [nwthU-R] node name [nwthU-R] derived from node ID; set [node.name] to override
+[2016-12-29T19:05:20,985][INFO ][o.e.n.Node               ] [nwthU-R] version[5.0.1], pid[2099], build[080bb47/2016-11-11T22:08:49.812Z], OS[Mac OS X/10.12.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-29T19:05:22,399][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [aggs-matrix-stats]
+[2016-12-29T19:05:22,399][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [ingest-common]
+[2016-12-29T19:05:22,400][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-expression]
+[2016-12-29T19:05:22,400][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-groovy]
+[2016-12-29T19:05:22,400][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-mustache]
+[2016-12-29T19:05:22,400][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-painless]
+[2016-12-29T19:05:22,400][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [percolator]
+[2016-12-29T19:05:22,400][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [reindex]
+[2016-12-29T19:05:22,400][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty3]
+[2016-12-29T19:05:22,400][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty4]
+[2016-12-29T19:05:22,401][INFO ][o.e.p.PluginsService     ] [nwthU-R] no plugins loaded
+[2016-12-29T19:05:25,206][INFO ][o.e.n.Node               ] [nwthU-R] initialized
+[2016-12-29T19:05:25,206][INFO ][o.e.n.Node               ] [nwthU-R] starting ...
+[2016-12-29T19:05:30,392][INFO ][o.e.t.TransportService   ] [nwthU-R] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-12-29T19:05:33,467][INFO ][o.e.c.s.ClusterService   ] [nwthU-R] new_master {nwthU-R}{nwthU-RSRJmrdHRK1B-nHg}{3Afm9PNYRimOpp-Q2oeEpw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-29T19:05:33,501][INFO ][o.e.h.HttpServer         ] [nwthU-R] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-12-29T19:05:33,501][INFO ][o.e.n.Node               ] [nwthU-R] started
+[2016-12-29T19:05:33,740][INFO ][o.e.g.GatewayService     ] [nwthU-R] recovered [2] indices into cluster_state
+[2016-12-29T19:05:34,084][INFO ][o.e.c.r.a.AllocationService] [nwthU-R] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][3]] ...]).
+[2016-12-29T19:06:43,485][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [marca] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-29T19:06:43,571][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:06:43,573][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:06:43,668][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca/bVVUoDNnSN6LHf895P6c6g] create_mapping [sentiments]
+[2016-12-29T19:06:43,978][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:06:43,981][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:06:44,429][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [update_log] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-29T19:06:44,502][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [update_log/LKovCYa0Qu67Y7X4sgQT8A] create_mapping [entry]
+[2016-12-29T19:21:52,389][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:21:52,391][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:21:52,440][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca/bVVUoDNnSN6LHf895P6c6g] create_mapping [emotions]
+[2016-12-29T19:21:52,457][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca/bVVUoDNnSN6LHf895P6c6g] update_mapping [emotions]
+[2016-12-29T19:21:52,574][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:21:52,575][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:26:36,357][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [as] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-29T19:26:36,431][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:26:36,433][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:26:36,463][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [as/VLUnILh4SHaAR10K25ytYQ] create_mapping [emotions]
+[2016-12-29T19:26:36,530][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:26:36,531][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:30:03,325][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:30:03,327][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:30:03,352][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [as/VLUnILh4SHaAR10K25ytYQ] create_mapping [sentiments]
+[2016-12-29T19:30:03,373][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [as/VLUnILh4SHaAR10K25ytYQ] update_mapping [sentiments]
+[2016-12-29T19:30:03,451][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:30:03,453][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:43:18,726][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [marca] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-29T19:43:18,786][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:43:18,787][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:43:18,807][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca/9LJbiKu_RbuVCmpBmYdZLg] create_mapping [sentiments]
+[2016-12-29T19:43:18,846][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca/9LJbiKu_RbuVCmpBmYdZLg] update_mapping [sentiments]
+[2016-12-29T19:43:18,916][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:43:18,918][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:44:28,711][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:44:28,713][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:44:28,741][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca/9LJbiKu_RbuVCmpBmYdZLg] create_mapping [emotions]
+[2016-12-29T19:44:28,838][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:44:28,839][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:45:13,039][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [marca-emo] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-29T19:45:13,112][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:45:13,113][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:45:13,131][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca-emo/qBxd3xJKRvuZ8Vr_1k_y8Q] create_mapping [emotions]
+[2016-12-29T19:45:13,143][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca-emo/qBxd3xJKRvuZ8Vr_1k_y8Q] update_mapping [emotions]
+[2016-12-29T19:45:13,230][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:45:13,231][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:48:12,280][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [as] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-29T19:48:12,348][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:48:12,349][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T19:48:12,372][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [as/FOxdAvjITk2bn9uwTxEfiw] create_mapping [emotions]
+[2016-12-29T19:48:12,458][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:48:12,459][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T19:50:37,781][INFO ][o.e.n.Node               ] [nwthU-R] stopping ...
+[2016-12-29T19:50:37,806][INFO ][o.e.n.Node               ] [nwthU-R] stopped
+[2016-12-29T19:50:37,807][INFO ][o.e.n.Node               ] [nwthU-R] closing ...
+[2016-12-29T19:50:37,818][INFO ][o.e.n.Node               ] [nwthU-R] closed
+[2016-12-29T19:50:57,844][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-29T19:50:57,922][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [38.5gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-12-29T19:50:57,922][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-12-29T19:50:57,958][INFO ][o.e.n.Node               ] [nwthU-R] node name [nwthU-R] derived from node ID; set [node.name] to override
+[2016-12-29T19:50:57,960][INFO ][o.e.n.Node               ] [nwthU-R] version[5.0.1], pid[2427], build[080bb47/2016-11-11T22:08:49.812Z], OS[Mac OS X/10.12.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-29T19:50:59,208][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [aggs-matrix-stats]
+[2016-12-29T19:50:59,208][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [ingest-common]
+[2016-12-29T19:50:59,208][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-expression]
+[2016-12-29T19:50:59,209][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-groovy]
+[2016-12-29T19:50:59,209][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-mustache]
+[2016-12-29T19:50:59,209][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-painless]
+[2016-12-29T19:50:59,209][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [percolator]
+[2016-12-29T19:50:59,209][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [reindex]
+[2016-12-29T19:50:59,209][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty3]
+[2016-12-29T19:50:59,209][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty4]
+[2016-12-29T19:50:59,210][INFO ][o.e.p.PluginsService     ] [nwthU-R] no plugins loaded
+[2016-12-29T19:51:01,444][INFO ][o.e.n.Node               ] [nwthU-R] initialized
+[2016-12-29T19:51:01,444][INFO ][o.e.n.Node               ] [nwthU-R] starting ...
+[2016-12-29T19:51:06,651][INFO ][o.e.t.TransportService   ] [nwthU-R] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-12-29T19:51:09,710][INFO ][o.e.c.s.ClusterService   ] [nwthU-R] new_master {nwthU-R}{nwthU-RSRJmrdHRK1B-nHg}{I4HGf6GCQkmyCXQORqCC6A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-29T19:51:09,736][INFO ][o.e.h.HttpServer         ] [nwthU-R] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-12-29T19:51:09,737][INFO ][o.e.n.Node               ] [nwthU-R] started
+[2016-12-29T19:51:09,937][INFO ][o.e.g.GatewayService     ] [nwthU-R] recovered [3] indices into cluster_state
+[2016-12-29T19:51:10,350][INFO ][o.e.c.r.a.AllocationService] [nwthU-R] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][1], [footballdata][0]] ...]).
+[2016-12-29T20:12:23,034][INFO ][o.e.c.m.MetaDataCreateIndexService] [nwthU-R] [marca1] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-12-29T20:12:23,125][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T20:12:23,127][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [1s] to [-1]
+[2016-12-29T20:12:23,222][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca1/fNIx5wYoQdSsMp5ZyLJi_g] create_mapping [sentiments]
+[2016-12-29T20:12:23,240][INFO ][o.e.c.m.MetaDataMappingService] [nwthU-R] [marca1/fNIx5wYoQdSsMp5ZyLJi_g] update_mapping [sentiments]
+[2016-12-29T20:12:23,741][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T20:12:23,743][INFO ][o.e.c.s.IndexScopedSettings] [nwthU-R] updating [index.refresh_interval] from [-1] to [1s]
+[2016-12-29T20:19:15,477][INFO ][o.e.n.Node               ] [nwthU-R] stopping ...
+[2016-12-29T20:19:15,505][INFO ][o.e.n.Node               ] [nwthU-R] stopped
+[2016-12-29T20:19:15,505][INFO ][o.e.n.Node               ] [nwthU-R] closing ...
+[2016-12-29T20:19:15,515][INFO ][o.e.n.Node               ] [nwthU-R] closed

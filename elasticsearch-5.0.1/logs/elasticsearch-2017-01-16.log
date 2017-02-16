@@ -1,0 +1,29 @@
+[2017-01-16T18:19:11,341][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-01-16T18:19:11,451][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [38gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2017-01-16T18:19:11,451][INFO ][o.e.e.NodeEnvironment    ] [nwthU-R] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-01-16T18:19:11,575][INFO ][o.e.n.Node               ] [nwthU-R] node name [nwthU-R] derived from node ID; set [node.name] to override
+[2017-01-16T18:19:11,581][INFO ][o.e.n.Node               ] [nwthU-R] version[5.0.1], pid[1219], build[080bb47/2016-11-11T22:08:49.812Z], OS[Mac OS X/10.12.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2017-01-16T18:19:12,771][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [aggs-matrix-stats]
+[2017-01-16T18:19:12,772][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [ingest-common]
+[2017-01-16T18:19:12,772][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-expression]
+[2017-01-16T18:19:12,772][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-groovy]
+[2017-01-16T18:19:12,772][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-mustache]
+[2017-01-16T18:19:12,773][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [lang-painless]
+[2017-01-16T18:19:12,773][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [percolator]
+[2017-01-16T18:19:12,773][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [reindex]
+[2017-01-16T18:19:12,773][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty3]
+[2017-01-16T18:19:12,773][INFO ][o.e.p.PluginsService     ] [nwthU-R] loaded module [transport-netty4]
+[2017-01-16T18:19:12,774][INFO ][o.e.p.PluginsService     ] [nwthU-R] no plugins loaded
+[2017-01-16T18:19:15,920][INFO ][o.e.n.Node               ] [nwthU-R] initialized
+[2017-01-16T18:19:15,920][INFO ][o.e.n.Node               ] [nwthU-R] starting ...
+[2017-01-16T18:19:21,137][INFO ][o.e.t.TransportService   ] [nwthU-R] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-01-16T18:19:24,240][INFO ][o.e.c.s.ClusterService   ] [nwthU-R] new_master {nwthU-R}{nwthU-RSRJmrdHRK1B-nHg}{N5rYC85qRPiwWrY3JbMgZw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-01-16T18:19:24,296][INFO ][o.e.h.HttpServer         ] [nwthU-R] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-01-16T18:19:24,296][INFO ][o.e.n.Node               ] [nwthU-R] started
+[2017-01-16T18:19:25,420][INFO ][o.e.g.GatewayService     ] [nwthU-R] recovered [10] indices into cluster_state
+[2017-01-16T18:19:27,840][INFO ][o.e.c.r.a.AllocationService] [nwthU-R] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][1], [footballdata][2]] ...]).
+[2017-01-16T21:36:39,412][ERROR][i.n.u.ResourceLeakDetector] LEAK: ByteBuf.release() was not called before it's garbage-collected. Enable advanced leak reporting to find out where the leak occurred. To enable advanced leak reporting, specify the JVM option '-Dio.netty.leakDetection.level=advanced' or call ResourceLeakDetector.setLevel() See http://netty.io/wiki/reference-counted-objects.html for more information.
+[2017-01-16T23:34:29,555][INFO ][o.e.n.Node               ] [nwthU-R] stopping ...
+[2017-01-16T23:34:29,712][INFO ][o.e.n.Node               ] [nwthU-R] stopped
+[2017-01-16T23:34:29,713][INFO ][o.e.n.Node               ] [nwthU-R] closing ...
+[2017-01-16T23:34:29,737][INFO ][o.e.n.Node               ] [nwthU-R] closed

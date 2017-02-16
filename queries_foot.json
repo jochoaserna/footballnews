@@ -1,0 +1,1 @@
+[{"name":"Players playing in Atlético de Madrid", "val":"PREFIX p: <http://dbpedia.org/property/>\nSELECT * WHERE {\n?player p:currentclub  <http://dbpedia.org/resource/Atlético_Madrid>.\n ?player p:position ?position \n}""
